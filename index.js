@@ -11,15 +11,25 @@ const oauth = new OAuth.OAuth(
   "HMAC-SHA1"
 );
 
-oauth.post(
-  `https://api.twitter.com/1.1/statuses/update.json`,
-  process.env.AccessToken,
-  process.env.TokenSecret,
-  { status: "Sent from script" },
-  (e, data, response) => {
-    if (response) {
-      console.log(response);
+let result = (resolve, reject) => {
+  oauth.post(
+    `https://api.twitter.com/1.1/statuses/update.json`,
+    process.env.AccessToken,
+    process.env.TokenSecret,
+    { status: "Sent from script" },
+    (e, data, response) => {
+      if (response) {
+        console.log("SENT");
+      }
+      if (data) {
+        resolve(data);
+      }
+      if (e) {
+        console.log(e);
+        reject(e);
+      }
     }
-    if (e) console.error(e);
-  }
-);
+  );
+};
+
+return new Promise(result);
