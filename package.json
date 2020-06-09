@@ -1,0 +1,17 @@
+{
+  "name": "software_twitter_bot",
+  "version": "1.0.0",
+  "description": "A twitter bot that periodically sends tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "oauth": "^0.9.15",
+    "oauth-signature": "^1.5.0",
+    "uuid": "^8.1.0"
+  }
+}
