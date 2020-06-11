@@ -2,6 +2,7 @@ const OAuth = require("oauth");
 const motivation = require("./tweets.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
+const { resolve } = require("path");
 
 exports.handler = async (event) => {
   var quoteNo;
@@ -97,13 +98,19 @@ exports.handler = async (event) => {
       },
       TableName: "Twitter-Bot-Table",
     };
-
-    dynamodb.putItem(params, (err, data) => {
-      if (err) console.log(err);
-      if (data) {
-        console.log("JUST POPULATED QUOTE NO" + newQuoteNo);
-      }
-    });
+    let result = (resolve, reject) => {
+      dynamodb.putItem(params, (err, data) => {
+        if (err) {
+          console.log(err);
+          reject(err);
+        }
+        if (data) {
+          resolve("Updated");
+          console.log("JUST POPULATED QUOTE NO" + newQuoteNo);
+        }
+      });
+    };
+    return new Promise(result);
   }
   await initialise();
   await getQuoteNo();
