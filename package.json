@@ -9,9 +9,8 @@
   "author": "Mohamed Sheikh",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.693.0",
     "fs": "0.0.1-security",
-    "oauth": "^0.9.15",
-    "oauth-signature": "^1.5.0",
-    "uuid": "^8.1.0"
+    "oauth": "^0.9.15"
   }
 }
