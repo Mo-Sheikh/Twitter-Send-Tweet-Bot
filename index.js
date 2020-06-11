@@ -89,7 +89,7 @@ exports.handler = async (event) => {
     return new Promise(result);
   }
   async function populateDB() {
-    let newQuoteNo = parseInt(quoteNo + 1);
+    let newQuoteNo = parseInt(quoteNo) + 1;
     var params = {
       Item: {
         live: { S: "QuoteNo" },
