@@ -1,0 +1,242 @@
+[
+  {
+    "tweet": "The best programmers can take a complex problem break it down into smaller pieces solve each of those pieces and then put everything back together to solve the initial problem.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t let one domain pigeonhole you into one way of coding. An example would be a mobile developer who is mainly good at hooking together existing APIs but cant come up with a sane data representation. Don’t be a one-trick pony.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Plan your code away from the computer. It will help you build a clear mental model before you start. You use the same strategy in writing  because if you don’t have an outline  your content becomes a messy stream of consciousness.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "When youre stuck  write your program on paper. Im serious. Its magic. (I think it works because when you dont have to think about syntax you have more excess brain power to solve the actual problem.)” - Joseph Gentle  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Compelling web apps tend to be the ones that use data in unexpected ways or in ways that solve everyday problems. Learn everything you can about data storage.”  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Contribute to open-source projects as a bridge from beginner to intermediate. Collaborate with the developers of the project and attend meetups to collaborate with other developers in person.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t let anything get in the way of that initial motivation to learn programming and just build something. Sometimes you block yourself by having too much focus on reading books or resources first.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Beginners will try to find the perfect first language. Your first language doesn’t matter. What matters is learning to program well. Just start coding  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Learning programming languages is NOT learning how to program. Focus on programming techniques  problem solving  and analytical skills  not on learning as many languages as you can.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "If youre committed to learning a programming language. Learn the most important libraries for your use cases. The more libraries you’re aware of  the less likely you are to try reinventing the wheel.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Automation is key   create some of your own tools. (But of course  if youre going to use it in production  make sure its not another wheel reinvention.)  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Dont ask permission to refactor  test  document etc. Its all part of ‘programming’. Dont ask permission to do your job.”  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Always write code as if the person who ends up maintaining it will be a violent psychopath who knows where you live.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Name variables so that other developers can understand your code better. This is a skill you need to nurture.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t use design patterns like a hammer looking for a nail. If you don’t have a clear reason you need it  don’t use it.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Reusable code is helpful and important  but trying to write overgeneralized  super flexible code is often a waste of time. This kind of code is usually harder to maintain and causes bugs.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": " Commit your code in small  working chunks and write a detailed commit messages that will help developers find and understand bugs that may have been introduced in that commit.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Have large chunks of time set aside for focused coding each day. The quantity of time spent coding is meaningless if it’s full of interruptions such as meetings  emails  and web browsing.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Googling is a crucial developer skill. Learn how to do something you haven’t done before and find optimal solutions from the collective intelligence of the developer community  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Teach. Even if you’re a novice at programming  you’re knowledgeable about something. Teaching teaches the teacher.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Make mistakes  ask questions  get rapid feedback  get uncomfortable  compare it to what you know  keep going.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Look for existing solutions. Most of the time  every problem you are struggling with is a problem that thousands of people have already faced and probably solved.   #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Read  read & read. The more you read  the more you learn. You obviously need to practise  but good books give you a solid base!  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "To be competitive stay updated. Know about new trends in your industry. The world is changing at a very fast rhythm and almost every day  you hear about awesome innovations  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t forget to live. A code marathon isn’t going to make you healthy and productive”. Don’t forget about your personal life! Disconnect  go out  do sports  spend time in nature without any devices.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Before you start coding  take the time to jot down the general structure of the feature/problem you will be working on. This will make code implementation a much smoother process and will help you see potential pitfalls.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Things change very quickly in the software industry. If you want to stay relevant as a programmer  you have to keep learning new things.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Dont Try To Learn Everything - Although its important to be constantly picking up on new things  you only have so many hours in your day. So be selective of what you spend your time trying to learn.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "You might think youre all set once you know C++  Java or Python. Yet  being a great developer requires a wide range of softer skills too – like being able to empathise. After all  you’ll still be working with humans.   #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Under promise and over deliver. Its better to let your team know a task will take three weeks and deliver in two than the other way around. By under promising and over delivering  youll build trust.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "YAGNI: You Aint Gonna Need It. Dont write code that you think you might need in future  but dont need yet. This is coding for imaginary future use cases  and inevitably the code will become dead code.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Write defensively. Always think about what can go wrong  what will happen on invalid input  and what might fail  this will help you catch many bugs before they happen.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "The third time you write the same piece of code is the right time to extract it into a general-purpose helper (and write tests for it). Remember (DRY) - Dont repeat yourself  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Contribute to open-source projects as a bridge from beginner to intermediate. Collaborate with the developers of the project and attend meetups to collaborate with other developers in person.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t let anything get in the way of that initial motivation to learn programming and just build something. Sometimes you block yourself by having too much focus on reading books or resources first  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Learning programming languages is NOT learning how to program. Focus on programming techniques  problem solving  and analytical skills  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Learn the most important libraries for your chosen programming language. The more libraries you’re aware of  the less likely you are to try reinventing the wheel.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Make common programs that have been made before as a learning project. If other developers can make a calculator  text editor  paint  Tetris  or Pong  then so can you.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Dont ask permission to refactor  test  document etc. Its all part of ‘programming’. Dont ask permission to do your job.”  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Always write code as if the person who ends up maintaining it will be a violent psychopath who knows where you live.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Name variables so that other developers can understand your code better. This is a skill you need to nurture.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Don’t use design patterns like a hammer looking for a nail. If you don’t have a clear reason you need it  don’t use it.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Reusable code is helpful and important  but trying to write overgeneralized  super flexible code is often a waste of time. This kind of code is usually harder to maintain and causes bugs.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Master the art of debugging using print statements. There are many scenarios where a sophisticated debugger is not available to you   #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Know when to take on technical debtxa0and when to pay it off so it doesn’t compound.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Within the context of your projects  learn what the right amount of testing is. Too little and your software becomes unreliable and everyone is afraid to deploy to production. Too much and you’ll end up wasting too much time.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": " Estimating time is hard. This is why iterative development methods such as Scrum are so popular. Push yourself and your team to have increasingly shorter release cycles.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "xa0Its not at all important to get it right the first time. Its vitally important to get it right the last time.xa0”  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "You won’t get anywhere if you just sit on your ass and lament that you suck at coding. Asides from following tutorials  you should work on your own projects.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Becoming a good programmer takes a long  long time and a lot of tedious evenings. Be patient and you shall bear the fruits of your labour  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Learn by doing. Always play with the code while learning - With every new subject  the sooner you start playing with the code  the faster you will learn the given concepts.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "As elementary as they may appear at first  programming fundamentals always need to come first: the better you understand them  the easier it is to learn more advanced concepts.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "As awesome as it would be to become the next Steve Jobs on your own  the reality is that people learn faster with mentors and peer feedback.   #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Consistency is very important when you are learning a new language. Make a commitment to coding everyday.   #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "As you progress on your journey as a new programmer  you may wonder if you should be taking notes. Yes  you should! Taking notes by hand is best for long-term retention.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Be aware that the only constant in the tech (& programming) world is change: be open to it  accept it  and dont look at it as some serious inconvenience to be fought!  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Take pride in what you build  but be ready to have it replaced by someone or even yourself. Dont attach ego to your code.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Programming can also one of the most frustrating things you will ever do. Feeling frustrated is completely normal  and will probably never completely go away.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Jump into networking with other local people in the industry as soon as you can. Those connections will grow with you and be invaluable.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "One of the best programming skills you can have is knowing when to walk away for awhile.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Pete Cordell: Telling a programmer theres already a library to do X is like telling a songwriter theres already a song about love.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Codes are a puzzle. A game  just like any other game. - Alan Turing  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "If software cannot be maintained  then it will be rewritten – Dave Cheney  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "The digital revolution is far more significant than the invention of writing or even of printing. – Douglas Engelbart  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Software being Done is like lawn being Mowed. - Jim Benson  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "What one programmer can do in one month  two programmers can do in two months. - Fred Brooks  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "If it doesn’t work  it doesn’t matter how fast it doesn’t work. - Mich Ravera  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "The amount of sleep that you get has a larger impact on your effectiveness than the programming language you use. – Wesley Aptekar-Cassels  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "People have an enormous tendency to resist change. They love to say  Weve always done it this way. I try to fight that.” - Grace Hopper  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "An evolving system increases its complexity unless work is done to reduce it. - Meir Lehman  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do. - Ted Nelson  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "It turns out that style matters in programming for the same reason that it matters in writing. It makes for better reading. - Douglas Crockford  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "There’s a big difference between making a simple product & making a product simple.” - Des Traynor  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "A good programmer is someone who always looks both ways before crossing a one-way street. —xa0Doug Linder  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "You’re building your own maze  in a way  and you might just get lost in it.” - Marijn Haverbeke  Eloquent JavaScript: A Modern Introduction to Programming  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Programming is like pinball. The reward for doing it is the opportunity of doing it again. - Unknown  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Its not a bug - its an undocumented feature. - Author Unknown  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "Software is never finished  only abandoned.  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "The most valuable thing you can make is a mistake - you cant learn anything from being perfect. - Adam Osborne  #100DaysOfCode #Software #SoftwareDeveloper"
+  },
+  {
+    "tweet": "There’s a very strong element of excitement  of being able to share what you’ve learned with the next generation.” - Larry Tesler  #100DaysOfCode #Software #SoftwareDeveloper"
+  }
+]

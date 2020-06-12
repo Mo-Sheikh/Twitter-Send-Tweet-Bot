@@ -1,10 +1,13 @@
 const OAuth = require("oauth");
 const motivation = require("./tweets.json");
+const softwareMotivation = require("./softwareTweets.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
-const { resolve } = require("path");
 
 exports.handler = async (event) => {
+  var item;
+  var index;
+  var type;
   var quoteNo;
   var dynamodb;
   async function initialise() {
@@ -34,8 +37,18 @@ exports.handler = async (event) => {
       });
     }
   }
-
-  async function getQuoteNo() {
+  async function getTweetType() {
+    if (event.type) {
+      index = 1;
+      type = softwareMotivation;
+      item = "softwareQuoteNo";
+    } else {
+      index = 0;
+      type = motivation;
+      item = "QuoteNo";
+    }
+  }
+  async function getQuoteNo(index) {
     var params = {
       TableName: process.env.TableName,
     };
@@ -46,7 +59,7 @@ exports.handler = async (event) => {
           reject(err);
           return;
         } else {
-          quoteNo = data.Items[0].value.N;
+          quoteNo = data.Items[index].value.N;
           console.log("RETRIEVED QUOTE NO:", quoteNo);
           resolve(quoteNo);
         }
@@ -55,7 +68,7 @@ exports.handler = async (event) => {
     return new Promise(result);
   }
 
-  async function sendTweet() {
+  async function sendTweet(type) {
     console.log("QUOTe NO is ", quoteNo);
     console.log("SENDING TWEET");
     const oauth = new OAuth.OAuth(
@@ -72,12 +85,12 @@ exports.handler = async (event) => {
         `https://api.twitter.com/1.1/statuses/update.json`,
         process.env.AccessToken,
         process.env.TokenSecret,
-        { status: motivation[quoteNo].tweet },
+        { status: type[quoteNo].tweet },
         (e, data, response) => {
           if (response) {
           }
           if (data) {
-            console.log("SENT ", motivation[quoteNo].tweet);
+            console.log("SENT ", type[quoteNo].tweet);
             resolve(data);
           }
           if (e) {
@@ -89,11 +102,11 @@ exports.handler = async (event) => {
     };
     return new Promise(result);
   }
-  async function populateDB() {
+  async function populateDB(item) {
     let newQuoteNo = parseInt(quoteNo) + 1;
     var params = {
       Item: {
-        live: { S: "QuoteNo" },
+        live: { S: item },
         value: { N: newQuoteNo.toString() },
       },
       TableName: "Twitter-Bot-Table",
@@ -112,13 +125,17 @@ exports.handler = async (event) => {
     };
     return new Promise(result);
   }
+
   await initialise();
-  await getQuoteNo();
-  await sendTweet();
-  await populateDB();
+  await getTweetType();
+  await getQuoteNo(index);
+  await sendTweet(type);
+  await populateDB(item);
   const response = {
     statusCode: 200,
     body: JSON.stringify("Hello from Lambda!"),
   };
   return response;
 };
+
+//handler({type: "software"})
