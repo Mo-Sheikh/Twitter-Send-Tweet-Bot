@@ -5,6 +5,7 @@ const AWS = require("aws-sdk");
 const fs = require("fs");
 
 exports.handler = async (event) => {
+  console.log("event is ", event);
   var item;
   var index;
   var type;
@@ -38,7 +39,8 @@ exports.handler = async (event) => {
     }
   }
   async function getTweetType() {
-    if (event.type) {
+    // if (event.type) {
+    if (true) {
       index = 1;
       type = softwareMotivation;
       item = "softwareQuoteNo";
@@ -85,7 +87,7 @@ exports.handler = async (event) => {
         `https://api.twitter.com/1.1/statuses/update.json`,
         process.env.AccessToken,
         process.env.TokenSecret,
-        { status: type[quoteNo].tweet },
+        { status: `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` },
         (e, data, response) => {
           if (response) {
           }
