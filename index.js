@@ -39,8 +39,8 @@ exports.handler = async (event) => {
     }
   }
   async function getTweetType() {
-    // if (event.type) {
-    if (true) {
+
+    if (!event.type) {
       index = 1;
       type = softwareMotivation;
       item = "softwareQuoteNo";
@@ -73,6 +73,7 @@ exports.handler = async (event) => {
   async function sendTweet(type) {
     console.log("QUOTe NO is ", quoteNo);
     console.log("SENDING TWEET");
+    let tweetPost = index == 1 ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` : type[quoteNo].tweet
     const oauth = new OAuth.OAuth(
       "https://api.twitter.com/oauth/request_token",
       "https://api.twitter.com/oauth/access_token",
@@ -87,7 +88,7 @@ exports.handler = async (event) => {
         `https://api.twitter.com/1.1/statuses/update.json`,
         process.env.AccessToken,
         process.env.TokenSecret,
-        { status: `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` },
+        { status: tweetPost },
         (e, data, response) => {
           if (response) {
           }
