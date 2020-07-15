@@ -1,5 +1,5 @@
 const OAuth = require("oauth");
-const motivation = require("./tweets.json");
+const motivation = require("./cleanedUp.json");
 const softwareMotivation = require("./softwareTweets.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
@@ -79,9 +79,6 @@ handler = async (event) => {
             try {
               let tweets = JSON.parse(data).map(i => {
                 ids.push(i.id)
-
-
-
                 if (i.retweet_count > 200) {
                   let isoDate = new Date(i.created_at)
                   let now = moment().toISOString()
@@ -181,7 +178,13 @@ handler = async (event) => {
   // await getQuoteNo(index);
   // await sendTweet(type);
   // await populateDB(item);
-  let b = await tester("wellpaidgeek")
+  // let a =  ["wellpaidgeek", "Ravinwashere", "Tucker_dev", "james_willett1", "flaviocopes"]
+  // a.map(i=>{
+  //   setTimeout(async ()=>{
+  //     let b = await tester(i)
+  //   }, 2000)
+  // })
+  let b = await tester("MarkTerrel")
 
   // console.log("a");
 
