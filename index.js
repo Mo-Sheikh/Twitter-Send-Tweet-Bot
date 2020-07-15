@@ -1,11 +1,11 @@
 const OAuth = require("oauth");
-const motivation = require("./cleanedUp.json");
-const softwareMotivation = require("./softwareTweets.json");
+const reuse = require("./cleanedUp.json");
+const tips = require("./softwareTweets.json");
 const questions = require("./Questions.json")
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
-exports.handler = async (event) => {
+handler = async (event) => {
   console.log("event is ", event);
   var item;
   var index;
@@ -42,17 +42,17 @@ exports.handler = async (event) => {
   async function getTweetType() {
 
     if (!event.type) {
-      index = 1;
-      type = softwareMotivation;
-      item = "softwareQuoteNo";
-    } else if (event.type == "reuse") {
-      index = 0;
-      type = motivation;
-      item = "QuoteNo";
-    }else if (event.type == "question"){
       index = 2;
+      type = tips;
+      item = "tipsNo";
+    } else if (event.type == "reuse") {
+      index = 1;
+      type = reuse;
+      item = "reuseNo";
+    }else if (event.type == "question"){
+      index = 0;
       type = questions
-      item = "tweetQuestions";
+      item = "questionsNo";
     }
   }
   async function getQuoteNo(index) {
@@ -67,6 +67,7 @@ exports.handler = async (event) => {
           return;
         } else {
           quoteNo = data.Items[index].value.N;
+          console.log(data.Items)
           console.log("RETRIEVED QUOTE NO:", quoteNo);
           resolve(quoteNo);
         }
@@ -146,4 +147,4 @@ exports.handler = async (event) => {
   return response;
 };
 
-//handler({type: "software"})
+handler({type: "software"})
