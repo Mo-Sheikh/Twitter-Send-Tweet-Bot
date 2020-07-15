@@ -181,7 +181,7 @@ handler = async (event) => {
   // await getQuoteNo(index);
   // await sendTweet(type);
   // await populateDB(item);
-  let b = await tester("x")
+  let b = await tester("wellpaidgeek")
 
   // console.log("a");
 

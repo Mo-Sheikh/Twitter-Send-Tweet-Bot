@@ -1,5 +1,5 @@
 const OAuth = require("oauth");
-const motivation = require("./tweets.json");
+const motivation = require("./cleanedUp.json");
 const softwareMotivation = require("./softwareTweets.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
