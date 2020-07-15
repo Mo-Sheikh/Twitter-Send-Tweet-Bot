@@ -1,6 +1,7 @@
 const OAuth = require("oauth");
 const motivation = require("./cleanedUp.json");
 const softwareMotivation = require("./softwareTweets.json");
+const questions = require("./Questions.json")
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
@@ -44,10 +45,14 @@ exports.handler = async (event) => {
       index = 1;
       type = softwareMotivation;
       item = "softwareQuoteNo";
-    } else {
+    } else if (event.type == "reuse") {
       index = 0;
       type = motivation;
       item = "QuoteNo";
+    }else if (event.type == "question"){
+      index = 2;
+      type = questions
+      item = "tweetQuestions";
     }
   }
   async function getQuoteNo(index) {
