@@ -79,7 +79,7 @@ exports.handler = async (event) => {
   async function sendTweet(type) {
     console.log("QUOTe NO is ", quoteNo);
     console.log("SENDING TWEET");
-    let tweetPost = index == 1 ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` : type[quoteNo].tweet
+    let tweetPost = index == 2 ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` : type[quoteNo].tweet
     const oauth = new OAuth.OAuth(
       "https://api.twitter.com/oauth/request_token",
       "https://api.twitter.com/oauth/access_token",
