@@ -5,7 +5,7 @@ const questions = require("./Questions.json")
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
-handler = async (event) => {
+exports.handler = async (event) => {
   console.log("event is ", event);
   var item;
   var index;
@@ -147,4 +147,4 @@ handler = async (event) => {
   return response;
 };
 
-handler({type: "software"})
+// handler({type: "software"})
