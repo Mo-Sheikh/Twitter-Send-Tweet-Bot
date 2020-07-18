@@ -80,6 +80,10 @@ exports.handler = async (event) => {
     console.log("QUOTe NO is ", quoteNo);
     console.log("SENDING TWEET");
     let tweetPost = index == 2 ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` : type[quoteNo].tweet
+    if(tweetPost.includes("undefined")){
+      console.log(" we have an undefined")
+      return
+    }
     const oauth = new OAuth.OAuth(
       "https://api.twitter.com/oauth/request_token",
       "https://api.twitter.com/oauth/access_token",
@@ -147,4 +151,4 @@ exports.handler = async (event) => {
   return response;
 };
 
-// handler({type: "software"})
+
