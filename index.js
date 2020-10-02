@@ -41,7 +41,7 @@ exports.handler = async (event) => {
   async function getTweetType() {
     // if (event.type) {
     if (true) {
-      index = 3s;
+      index = 3;
       type = softwareMotivation;
       item = "softwareQuoteNo";
     } else {
