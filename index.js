@@ -37,7 +37,7 @@ exports.handler = async (event) => {
     }
   }
   async function getTweetType() {
-    index = 4;
+    index = 3;
     type = softwareTweets;
     item = "tipsNo";
   }
