@@ -1,15 +1,13 @@
 const OAuth = require("oauth");
 const motivation = require("./tweets.json");
-const softwareMotivation = require("./softwareTweets.json");
+const softwareTweets = require("./softwareTweets.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
 exports.handler = async (event) => {
-  console.log("event is ", event);
   var item;
   var index;
   var type;
-  var quoteNo;
   var dynamodb;
   async function initialise() {
     console.log("INITIALISING");
@@ -39,17 +37,11 @@ exports.handler = async (event) => {
     }
   }
   async function getTweetType() {
-    // if (event.type) {
-    if (true) {
-      index = 3;
-      type = softwareMotivation;
-      item = "softwareQuoteNo";
-    } else {
-      index = 0;
-      type = motivation;
-      item = "QuoteNo";
-    }
+    index = 4;
+    type = softwareTweets;
+    item = "tipsNo";
   }
+
   async function getQuoteNo(index) {
     var params = {
       TableName: process.env.TableName,
@@ -139,5 +131,3 @@ exports.handler = async (event) => {
   };
   return response;
 };
-
-//handler({type: "software"})
