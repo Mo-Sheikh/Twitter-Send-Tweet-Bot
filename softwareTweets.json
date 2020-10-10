@@ -108,9 +108,6 @@
     "tweet": "Within the context of your projects learn what the right amount of testing is. Too little and your software becomes unreliable and everyone is afraid to deploy to production. Too much and you’ll end up wasting too much time. #100DaysOfCode #CodeNewbies"
   },
   {
-    "tweet": " Estimating time is hard. This is why iterative development methods such as Scrum are so popular. Push yourself and your team to have increasingly shorter release cycles. #100DaysOfCode #CodeNewbies"
-  },
-  {
     "tweet": "It's not at all important to get it right the first time. It's vitally important to get it right the last time.” #100DaysOfCode #CodeNewbies"
   },
   {
@@ -165,19 +162,7 @@
     "tweet": "Make your code easy to read and understand. This makes it easier for other people (including, your future self after you’ve forgotten how your code works) to figure out what your code is doing, modify it as need be, and debug it. #100DaysOfCode #CodeNewbies"
   },
   {
-    "tweet": "Inevitably, code comments become lies over time. In practice, few people update comments when things change. Strive to make your code readable and self-documenting through good naming practices and known programming style. #100DaysOfCode #CodeNewbies"
-  },
-  {
     "tweet": "Rushing any task usually ends up in disasters of the worst kind. Coding is a process that takes time. Software projects often involve the completion of a number of critical sub-tasks which cannot be messed up. Be patient. #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "If software cannot be maintained then it will be rewritten – Dave Cheney #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "The digital revolution is far more significant than the invention of writing or even of printing. – Douglas Engelbart #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "Software being Done is like lawn being Mowed. - Jim Benson #100DaysOfCode #CodeNewbies"
   },
   {
     "tweet": "Don’t be afraid to look at somebody else’s code and try to understand it.  If you're on a project with senior talent, this is a great opportunity to take advantage of!  Don’t be afraid to ask about things you don’t understand in their code. #100DaysOfCode #CodeNewbies"
@@ -415,15 +400,6 @@
     "tweet": "Within the context of your projects learn what the right amount of testing is. Too little and your software becomes unreliable and everyone is afraid to deploy to production. Too much and you’ll end up wasting too much time. #100DaysOfCode #CodeNewbies"
   },
   {
-    "tweet": " Estimating time is hard. This is why iterative development methods such as Scrum are so popular. Push yourself and your team to have increasingly shorter release cycles. #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "It's not at all important to get it right the first time. It's vitally important to get it right the last time.” #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "You won’t get anywhere if you just sit on your ass and lament that you suck at coding. Asides from following tutorials you should work on your own projects. #100DaysOfCode #CodeNewbies"
-  },
-  {
     "tweet": "Becoming a good programmer takes a long long time and a lot of tedious evenings. Be patient and you shall bear the fruits of your labour #100DaysOfCode #CodeNewbies"
   },
   {
@@ -434,6 +410,9 @@
   },
   {
     "tweet": "As awesome as it would be to become the next Steve Jobs on your own the reality is that people learn faster with mentors and peer feedback.  #100DaysOfCode #CodeNewbies"
+  },
+  {
+    "tweet": "You won’t get anywhere if you just sit on your ass and lament that you suck at coding. Asides from following tutorials you should work on your own projects. #100DaysOfCode #CodeNewbies"
   },
   {
     "tweet": "Consistency is very important when you are learning a new language. Make a commitment to coding everyday.  #100DaysOfCode #CodeNewbies"
@@ -466,25 +445,13 @@
     "tweet": "Learn how to learn - Everyone learns best in different ways. Some learn best from reading books and others like following video tutorials. If you figure out your learning style and use it, you'll have a much easier time learning new things. #100DaysOfCode #CodeNewbies"
   },
   {
-    "tweet": "Codes are a puzzle. A game just like any other game. - Alan Turing #100DaysOfCode #CodeNewbies"
-  },
-  {
     "tweet": "Make your code easy to read and understand. This makes it easier for other people (including, your future self after you’ve forgotten how your code works) to figure out what your code is doing, modify it as need be, and debug it. #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "Inevitably, code comments become lies over time. In practice, few people update comments when things change. Strive to make your code readable and self-documenting through good naming practices and known programming style. #100DaysOfCode #CodeNewbies"
   },
   {
     "tweet": "Rushing any task usually ends up in disasters of the worst kind. Coding is a process that takes time. Software projects often involve the completion of a number of critical sub-tasks which cannot be messed up. Be patient. #100DaysOfCode #CodeNewbies"
   },
   {
     "tweet": "If software cannot be maintained then it will be rewritten – Dave Cheney #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "The digital revolution is far more significant than the invention of writing or even of printing. – Douglas Engelbart #100DaysOfCode #CodeNewbies"
-  },
-  {
-    "tweet": "Software being Done is like lawn being Mowed. - Jim Benson #100DaysOfCode #CodeNewbies"
   },
   {
     "tweet": "Don’t be afraid to look at somebody else’s code and try to understand it.  If you're on a project with senior talent, this is a great opportunity to take advantage of!  Don’t be afraid to ask about things you don’t understand in their code. #100DaysOfCode #CodeNewbies"
