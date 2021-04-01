@@ -51,6 +51,7 @@ handler = async (event) => {
         (e, data, response) => {
           if (e) {
             console.log(e);
+            console.log("ERROR!");
           }
           if (
             data &&
@@ -59,6 +60,7 @@ handler = async (event) => {
             previous != JSON.parse(data)[0].full_text
           ) {
             let formattedData = JSON.parse(data);
+
             previous = formattedData[0].full_text;
             total += formattedData.length;
             try {
@@ -68,7 +70,13 @@ handler = async (event) => {
                   let isoDate = new Date(i.created_at);
                   let now = moment().toISOString();
                   if (moment(now).diff(moment(isoDate), "days") > args[4]) {
-                    obj.add(`${i.full_text}|-|${i.retweet_count}|-|@${user}|-|@${isoDate}`);
+                    obj.add(
+                      `${i.full_text}|-|${
+                        i.retweet_count
+                      }|-|@${user}|-|@${isoDate}|-|${Math.ceil(
+                        (i.retweet_count / i.user.followers_count) * 100
+                      )}%`
+                    );
                     return i;
                   }
                 }
@@ -84,6 +92,7 @@ handler = async (event) => {
             }
             if (e) {
               console.log(e);
+              console.log("ERROR1");
               reject(e);
             }
           } else {
@@ -92,7 +101,8 @@ handler = async (event) => {
                 tweet: i.split("|-|")[0],
                 retweets: i.split("|-|")[1],
                 user: i.split("|-|")[2],
-                date:  i.split("|-|")[3],
+                date: i.split("|-|")[3],
+                tweetChance: i.split("|-|")[4],
               };
             });
             console.log(`${user} has`, tweets.length);
@@ -153,7 +163,7 @@ handler = async (event) => {
       fs.readFile("./reusedTweets.json", "utf8", (err, data) => {
         if (err) {
           console.log(err);
-
+          console.log("writing error");
           reject(err);
         }
         if (data && data.length > 10) {
