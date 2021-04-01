@@ -1,0 +1,408 @@
+[
+  {
+    "tweet": "Node developers this week https://t.co/Mlqe2AKgDq",
+    "retweets": "376",
+    "user": "@flaviocopes",
+    "date": "@Sat May 16 2020 13:21:46 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Don't be a React developer\nDon't be a Vue developer\nDon't even be a JavaScript developer\nBe a developer\n\nYou don't want to be too attached to a tech to be blind.\nSometimes there are better solutions out there.\nTech comes and goes.\nWhen it goes, you don't want to fade with it",
+    "retweets": "608",
+    "user": "@flaviocopes",
+    "date": "@Wed May 13 2020 10:17:01 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "A little HTML trick you can use to show a different image in dark mode https://t.co/yyFIGAPRcA",
+    "retweets": "1505",
+    "user": "@flaviocopes",
+    "date": "@Mon Apr 27 2020 09:35:01 GMT+0100 (British Summer Time)",
+    "tweetChance": "6"
+  },
+  {
+    "tweet": "How's learning JavaScript going? https://t.co/XbsiEOFCyD",
+    "retweets": "368",
+    "user": "@james_willett1",
+    "date": "@Thu Apr 30 2020 19:21:20 GMT+0100 (British Summer Time)",
+    "tweetChance": "5"
+  },
+  {
+    "tweet": "Software developers are just people with better-than-average Googling skills.",
+    "retweets": "1021",
+    "user": "@tucker_dev",
+    "date": "@Mon Jul 20 2020 00:40:00 GMT+0100 (British Summer Time)",
+    "tweetChance": "12"
+  },
+  {
+    "tweet": "The difference between UI and UX https://t.co/FOrsrUl2b9",
+    "retweets": "1148",
+    "user": "@tucker_dev",
+    "date": "@Fri Jul 17 2020 21:21:14 GMT+0100 (British Summer Time)",
+    "tweetChance": "13"
+  },
+  {
+    "tweet": "\"All I know is that I know nothing.\" -Socrates\n\nWas he a programmer? 🤔",
+    "retweets": "362",
+    "user": "@tucker_dev",
+    "date": "@Wed Jul 01 2020 16:01:40 GMT+0100 (British Summer Time)",
+    "tweetChance": "5"
+  },
+  {
+    "tweet": "True no matter if you’re a junior developer or a senior developer https://t.co/K6O7t9pcj9",
+    "retweets": "1900",
+    "user": "@tucker_dev",
+    "date": "@Tue Jun 30 2020 04:19:07 GMT+0100 (British Summer Time)",
+    "tweetChance": "22"
+  },
+  {
+    "tweet": "A big 🧵 of free resources for learning JavaScript and related frameworks ⬇️⬇️⬇️",
+    "retweets": "374",
+    "user": "@tucker_dev",
+    "date": "@Sun Jun 21 2020 14:12:18 GMT+0100 (British Summer Time)",
+    "tweetChance": "5"
+  },
+  {
+    "tweet": "A big 🧵 of free web development resources ⬇️⬇️⬇️",
+    "retweets": "1160",
+    "user": "@tucker_dev",
+    "date": "@Wed Jun 10 2020 18:09:55 GMT+0100 (British Summer Time)",
+    "tweetChance": "14"
+  },
+  {
+    "tweet": "Job specs be like:\n\nYou need\n\n* JavaScript\n* React\n* Redux\n* Node\n* Mongo\n* E2E testing \n* Docker\n* Kubernetes\n* AWS\n\nAnd I’m like: “You need to be paying me 3 salaries because that’s 3 jobs”",
+    "retweets": "482",
+    "user": "@wellpaidgeek",
+    "date": "@Thu Aug 20 2020 16:46:03 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Are you confused by all the coding job titles out there?\n\nIs a developer different to an engineer? Is a frontend developer a software engineer?\n\nDon't worry, here's a thread to clear everything up for you 👇",
+    "retweets": "313",
+    "user": "@wellpaidgeek",
+    "date": "@Fri Aug 07 2020 20:30:21 GMT+0100 (British Summer Time)",
+    "tweetChance": "1"
+  },
+  {
+    "tweet": "Well all know it's true. But, JavaScript... we love you all the same! https://t.co/CU0vGMng0o",
+    "retweets": "470",
+    "user": "@wellpaidgeek",
+    "date": "@Tue Jul 21 2020 19:26:31 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "* HTML\n* CSS\n* JavaScript\n\nIf you have these skills you’re never going hungry!",
+    "retweets": "378",
+    "user": "@wellpaidgeek",
+    "date": "@Fri Jul 03 2020 21:35:07 GMT+0100 (British Summer Time)",
+    "tweetChance": "1"
+  },
+  {
+    "tweet": "~ Learn HTML, CSS and JavaScript.\n~ Learn a framework or library( react, vue, angular are the trending at the moment ) \n~ Learn webpack.\n~ Learn git.\n~ Open a GitHub account.\n~ Create a project and push it to GitHub.\n~ Apply for a job.",
+    "retweets": "661",
+    "user": "@ravinwashere",
+    "date": "@Sat Sep 12 2020 07:42:16 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "5 Tv series 📺 for programmer. \n\n1. Silicon Valley \n2. Mr robot\n3. The IT crowd\n4. Halt and catch fire \n5. Westworld\n\nWhich one would you add?",
+    "retweets": "556",
+    "user": "@ravinwashere",
+    "date": "@Fri Sep 04 2020 15:46:44 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Useful websites for web developers 👇.\n\n1. cssreference. io\nA free visual guide to CSS \n\n2. logomakr. com\nCreate your own logo in minutes\n\n3. brandpalettes. com\nLogo color codes and palettes\n\nplease show your love in the comments.",
+    "retweets": "566",
+    "user": "@ravinwashere",
+    "date": "@Wed Aug 12 2020 14:59:14 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "A list of resume builders that will make your CV Standout\n\n1 build a job winning resume for free\n( /flowcv.io )\n\n2. A free and open source resume builder\n( /rxresu.me )\n\n3. Free resumes to create &amp; Download\n( /resume.com ) \n\nAll builders are free &amp; well-suited for developers.",
+    "retweets": "722",
+    "user": "@ravinwashere",
+    "date": "@Wed Jul 29 2020 13:26:11 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Programming blogs to improve your skills 👇\n\n1. Dev community \n( /dev.to ) \n\n2. Free Code Camp \n( /freecodecamp.org/news )\n\n3. Hashnode \n( /hashnode.com ) \n\n4. Scotch\n( /scotch.io ) \n\n5. CSS Tricks\n( /css-tricks.com )\n\nLet me know which one your favourite.",
+    "retweets": "998",
+    "user": "@ravinwashere",
+    "date": "@Fri Jul 24 2020 14:48:11 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Some useful web developer stuff here 👇.\n\n1. css. gg\nOpen source 700 + CSS Icons\n\n2. overapi. com\nCollectiong all the cheat sheets\n\n3. regex101. com\nOnline regex tester &amp; debugger \n\nplease show your love in the comments.",
+    "retweets": "603",
+    "user": "@ravinwashere",
+    "date": "@Tue Jul 21 2020 16:55:12 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Some useful web developer stuff here 👇.\n\n1. public-apis. io \nA list of free Apis for developers\n\n2. ngrok. com \nexpose localhost to the Internet with public URL  \n\n3. regexr. com\nLearn, build &amp; test Regex \n\nplease show your love in the comments.",
+    "retweets": "862",
+    "user": "@ravinwashere",
+    "date": "@Sun Jul 19 2020 14:05:39 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Some useful web developer tools here 👇\n\n1. responsively. app\nSee how your project looks on desktop, tablet, mobile devices\n\n2. postwomen. io\nA free, fast and beautiful API request builder \n\n3. docracy. com\nFree legal documents\n\nShow your love in the comments.",
+    "retweets": "670",
+    "user": "@ravinwashere",
+    "date": "@Fri Jul 17 2020 16:25:48 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "A list of five resume builders that will make your CV Stand-out : \n\n1. resumake. io \n2. wtfresume. com\n3. rx-resume. web. app \n4. cv.bytevitae. com\n5. gitconnected. com/resume-builder\n\nAll builders are free and well-suited for developers",
+    "retweets": "1194",
+    "user": "@ravinwashere",
+    "date": "@Thu Jul 16 2020 12:21:54 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "Some useful website here! 👇 vol -2\n\n1. svgporn. com\nHigh quality svg logos\n\n2. openpeeps. com\nHuman illustration generator\n\n3. uidesigndaily. com\nI draw design inspiration from here \n\n4. carbon. now. sh\nA code snippet with style for presentation\n\nShow your love in the comments.",
+    "retweets": "595",
+    "user": "@ravinwashere",
+    "date": "@Wed Jul 15 2020 15:17:23 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Some useful web developer stuff here 👇.\n\n1. drawkit. io \nHand drawn illustrations.\n\n2. unsplash .com \nFree stock photos \n\n3. fontpair. co\nAwesome Google Font combination \n\n4. happyhues. com \nSuperb colors palettes.\n\nplease show your love in the comments.",
+    "retweets": "1012",
+    "user": "@ravinwashere",
+    "date": "@Tue Jul 14 2020 16:55:48 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Useful websites for Web Developers \n\n⚒ ohshitgit. com \n⚒ css-tricks. com  \n⚒ exercism. io \n⚒ dbdiagram. io \n⚒ cssfilters. co \n⚒ bundlephobia. com\n\nWhat would you add in this list?",
+    "retweets": "901",
+    "user": "@ravinwashere",
+    "date": "@Wed Jul 08 2020 16:28:04 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Best Free Resources To Learn  JavaScript\n\nWEBSITES\n1. freecodecamp. org\n2. developer.mozilla. org\n3. javascript. info\n4. eloquentjavascript. net\n5. read.humanjavascript. com\n6. davidwalsh. name\n7. flaviocopes. com\n8. w3schools. com\n\nCOURSES\n1. javascript30. com\n2. scrimba. com",
+    "retweets": "741",
+    "user": "@ravinwashere",
+    "date": "@Wed Jul 08 2020 14:30:25 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "11 Websites For Developers 👨‍💻👩‍💻\n\n✒ StackOverflow \n✒ Github \n✒ Codewars\n✒ Codementor \n✒ Codeshare \n✒ Devhints \n✒ Laracasts \n✒ Topcoder \n✒ Codepen\n✒ Repl it\n✒ Stack exchange\n\nWhich is your favorite website?",
+    "retweets": "647",
+    "user": "@ravinwashere",
+    "date": "@Thu Jul 02 2020 14:36:47 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "Top Language in Each Field! \n\nWeb development\nHTML\nCSS \nJS\nPHP\nPython\n\nGame Development\nC++\nC#\nJava\nJS\n\nArtificial Intelligence\nPython\nR\nJava\nC++ \n\nMobile Development \nJava\nKaitlin\nSwift\nJS\nDart \n\nData Science\nPython\nR\nScala\nSQL\nJava \n\nCyber Security\nC++\nPython\nJS\nPHP",
+    "retweets": "1048",
+    "user": "@ravinwashere",
+    "date": "@Thu Jun 25 2020 17:48:08 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Top Youtube Channels For Programmers\n\n⚒ Traversy Media\n⚒ The New Boston\n⚒ Derek Banas\n⚒ FreeCodeCamp\n⚒ Academind\n⚒ The Coding Train\n⚒ The Net Ninja\n⚒ DesignCourse\n⚒ Sentdex\n⚒ Red Stapler\n⚒ Kevin Powell\n\nWhat's ur favorite channel? What channels missing from the list?",
+    "retweets": "755",
+    "user": "@ravinwashere",
+    "date": "@Fri Jun 19 2020 15:35:30 GMT+0100 (British Summer Time)",
+    "tweetChance": "2"
+  },
+  {
+    "tweet": "JavaScript Free Learning Resources.\n\nWEBSITES \n&gt; Javascript. info\n&gt; freecodecamp. org\n&gt; eloquentjavascript. net\n&gt; read.humanjavascript. com\n\nYOUTUBE\n&gt; Traversy Media\n&gt; The Net Ninja \n&gt; Free Code Camp\n&gt; Academind \n\n#100DaysOfCode",
+    "retweets": "1012",
+    "user": "@ravinwashere",
+    "date": "@Sat May 30 2020 15:16:42 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Software developers are just people with better-than-average Googling skills.",
+    "retweets": "1021",
+    "user": "@tucker_dev",
+    "date": "@Mon Jul 20 2020 00:40:00 GMT+0100 (British Summer Time)",
+    "tweetChance": "12"
+  },
+  {
+    "tweet": "The difference between UI and UX https://t.co/FOrsrUl2b9",
+    "retweets": "1148",
+    "user": "@tucker_dev",
+    "date": "@Fri Jul 17 2020 21:21:14 GMT+0100 (British Summer Time)",
+    "tweetChance": "13"
+  },
+  {
+    "tweet": "True no matter if you’re a junior developer or a senior developer https://t.co/K6O7t9pcj9",
+    "retweets": "1900",
+    "user": "@tucker_dev",
+    "date": "@Tue Jun 30 2020 04:19:07 GMT+0100 (British Summer Time)",
+    "tweetChance": "22"
+  },
+  {
+    "tweet": "A big 🧵 of free web development resources ⬇️⬇️⬇️",
+    "retweets": "1160",
+    "user": "@tucker_dev",
+    "date": "@Wed Jun 10 2020 18:09:55 GMT+0100 (British Summer Time)",
+    "tweetChance": "14"
+  },
+  {
+    "tweet": "Don't be a React developer\nDon't be a Vue developer\nDon't even be a JavaScript developer\nBe a developer\n\nYou don't want to be too attached to a tech to be blind.\nSometimes there are better solutions out there.\nTech comes and goes.\nWhen it goes, you don't want to fade with it",
+    "retweets": "608",
+    "user": "@flaviocopes",
+    "date": "@Wed May 13 2020 10:17:01 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "A little HTML trick you can use to show a different image in dark mode https://t.co/yyFIGAPRcA",
+    "retweets": "1505",
+    "user": "@flaviocopes",
+    "date": "@Mon Apr 27 2020 09:35:01 GMT+0100 (British Summer Time)",
+    "tweetChance": "6"
+  },
+  {
+    "tweet": "Websites to find a remote job:\n\n📌 flexjobs. com\n📌 remote. co\n📌 justremote. co\n📌 weworkremotely. com\n📌 remoteok. io\n📌 jobspresso. co\n📌 europeremotely. com\n📌 wfh. io\n📌 dailyremote. com\n📌 angel. co\n📌 jsremotely. com\n📌 remoteleaf. com\n📌 remoteleads. io\n📌 hired. com",
+    "retweets": "752",
+    "user": "@denicmarko",
+    "date": "@Fri Sep 11 2020 05:25:00 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "Free hosting:\n\n* Netlify\n* Firebase\n* AWS\n* Heroku\n* Github Pages\n* Vercel\n* Surge\n* Render\n* Gitlab Pages\n* Stormkit\n* Azure\n* Hostman\n\nWhich one do you use?",
+    "retweets": "955",
+    "user": "@denicmarko",
+    "date": "@Mon Sep 07 2020 11:49:18 GMT+0100 (British Summer Time)",
+    "tweetChance": "6"
+  },
+  {
+    "tweet": "You want to learn JavaScript but don't know where to get started?\n\n🧵",
+    "retweets": "687",
+    "user": "@denicmarko",
+    "date": "@Tue Aug 04 2020 07:20:48 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "Youtube channels to learn Web Development:\n\n▶️ Traversy Media\n▶️ Dev Ed\n▶️ FreeCodeCamp\n▶️ The Net Ninja\n▶️ Google Chrome Developers\n▶️ flavio\n▶️ Web Dev Simplified \n▶️ Academind\n▶️ Florin Pop\n▶️ LevelUpTuts\n▶️ Ania Kubów\n\nWhich one would you add?",
+    "retweets": "560",
+    "user": "@denicmarko",
+    "date": "@Mon Aug 03 2020 07:46:45 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Most Wanted Languages as per Stack Overflow 2020 survey:\n\n1. Python\n2. JavaScript\n3. Go\n4. TypeScript\n5. Rust\n6. Kotlin\n7. Java\n8. C++\n9. SQL\n10. C#\n11. Swift\n12. HTML/CSS\n13. Dart\n14. R\n15. Ruby\n\nWhich one do you want to learn?",
+    "retweets": "679",
+    "user": "@denicmarko",
+    "date": "@Fri Jul 31 2020 18:32:47 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "Useful websites for web developers:\n\n⧩ netlify .com\n// Free hosting\n\n⧩ freepik .com\n// Free images, icons, illustrations...\n\n⧩ fontawesome .com\n// The most popular icon set\n\n⧩ gtmetrix .com\n// Analize the loading speed\n\n⧩ resume .com\n// Free resume builder",
+    "retweets": "853",
+    "user": "@denicmarko",
+    "date": "@Thu Jul 23 2020 06:39:56 GMT+0100 (British Summer Time)",
+    "tweetChance": "5"
+  },
+  {
+    "tweet": "Websites to follow to improve your Web Development skills:\n\n⧩ GitHub\n⧩ Stack Overflow\n⧩ CSS-Tricks\n⧩ CodePen\n⧩ W3Schools\n⧩ Smashing Magazine\n⧩ MDN Web Docs\n⧩ FreeCodeCamp\n⧩ The Odin Project \n\nWhat would you add?",
+    "retweets": "510",
+    "user": "@denicmarko",
+    "date": "@Sun Jul 12 2020 13:19:58 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Free Web Development Resources:\n\n🧵",
+    "retweets": "2931",
+    "user": "@denicmarko",
+    "date": "@Mon Jun 29 2020 07:41:40 GMT+0100 (British Summer Time)",
+    "tweetChance": "16"
+  },
+  {
+    "tweet": "Mystery Solved! https://t.co/bRGuhnvKKx",
+    "retweets": "12596",
+    "user": "@denicmarko",
+    "date": "@Sat Jun 13 2020 10:40:02 GMT+0100 (British Summer Time)",
+    "tweetChance": "67"
+  },
+  {
+    "tweet": "Pretty accurate https://t.co/TYPLxL8aVm",
+    "retweets": "901",
+    "user": "@rafrasenberg",
+    "date": "@Fri Aug 28 2020 06:05:45 GMT+0100 (British Summer Time)",
+    "tweetChance": "5"
+  },
+  {
+    "tweet": "USA, the special kid in class https://t.co/wCNHLx7X8n",
+    "retweets": "3013",
+    "user": "@rafrasenberg",
+    "date": "@Thu Aug 06 2020 09:04:51 GMT+0100 (British Summer Time)",
+    "tweetChance": "15"
+  },
+  {
+    "tweet": "Programmer:\nMy back &amp; neck hurts why? https://t.co/auqE7iy9XP",
+    "retweets": "690",
+    "user": "@rafrasenberg",
+    "date": "@Mon Aug 03 2020 09:00:01 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "Cries in JavaScript https://t.co/MugBIPnBAC",
+    "retweets": "577",
+    "user": "@rafrasenberg",
+    "date": "@Tue Jul 28 2020 05:26:54 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Programmer life explained in one picture 😂 https://t.co/PlNTYO7uvI",
+    "retweets": "1506",
+    "user": "@rafrasenberg",
+    "date": "@Sat Jul 25 2020 11:14:34 GMT+0100 (British Summer Time)",
+    "tweetChance": "8"
+  },
+  {
+    "tweet": "Software Development Cycle:\n\n1) I can't fix this\n2) Loss of confidence\n3) Questioning career choice\n4) Questioning life\n5) Oh, it was a typo on line 8, nvm",
+    "retweets": "507",
+    "user": "@rafrasenberg",
+    "date": "@Thu Jul 23 2020 12:23:46 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "What I am:\n\n- Programmer\n\nWhat I'm not:\n\n- Facebook Hacker\n- Printer Wisperer\n- Laptop Repairer\n- Spreadsheet Wizard\n- App Troubleshooter\n- E-mail Assistant\n- Bluetooth Ninja",
+    "retweets": "2071",
+    "user": "@rafrasenberg",
+    "date": "@Mon Jul 13 2020 05:45:17 GMT+0100 (British Summer Time)",
+    "tweetChance": "10"
+  },
+  {
+    "tweet": "10k giveaway!! 🎉\n\nA full year of Frontend Masters membership, worth $390\n\nThey have 100+ premium courses! Anything you need to master front-end dev.\n\nTo enter:\n1. Like this tweet\n2. Retweet\n3. Follow me (if you want, not required)\n\nI will pick a random winner this Sunday!",
+    "retweets": "3531",
+    "user": "@rafrasenberg",
+    "date": "@Thu Jul 09 2020 14:26:31 GMT+0100 (British Summer Time)",
+    "tweetChance": "17"
+  },
+  {
+    "tweet": "What is an API? \n\nEveryone keeps talking about it but it can be confusing for for beginners. So here a simple example!\n\n🧵A thread 🧵\n\n#100DaysOfCode",
+    "retweets": "687",
+    "user": "@rafrasenberg",
+    "date": "@Wed Jul 08 2020 09:11:19 GMT+0100 (British Summer Time)",
+    "tweetChance": "4"
+  },
+  {
+    "tweet": "When a programmer tells you:\n\n\"I'll see if I can find time for that this week\"\n\nLower your expectations",
+    "retweets": "574",
+    "user": "@rafrasenberg",
+    "date": "@Wed Jul 08 2020 05:30:00 GMT+0100 (British Summer Time)",
+    "tweetChance": "3"
+  },
+  {
+    "tweet": "Developers nowadays when they need to set-up a simple blog or landing page https://t.co/oT0JwOHNgT",
+    "retweets": "1228",
+    "user": "@rafrasenberg",
+    "date": "@Thu Jun 18 2020 09:00:00 GMT+0100 (British Summer Time)",
+    "tweetChance": "6"
+  },
+  {
+    "tweet": "The person that owns test@test.com https://t.co/STFZpkHZJb",
+    "retweets": "2734",
+    "user": "@rafrasenberg",
+    "date": "@Wed Jun 10 2020 11:35:33 GMT+0100 (British Summer Time)",
+    "tweetChance": "13"
+  }
+]

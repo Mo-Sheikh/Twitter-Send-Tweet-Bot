@@ -1,0 +1,32 @@
+[
+{
+  "tweet": "Assignment to an undeclared variable automatically results in a global variable being created. Avoid global variables. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "use === instead of ==. The == (or !=) operator performs an automatic type conversion whereas the === (or !==) operator will not. It compares the value and the type, which could be considered faster and safer than ==. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "undefined, null, 0, false, NaN, '' (empty string) are all falsy. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "The use of semi-colons for line termination is a good practice. You won’t be warned if you forget it, because in most cases it will be inserted by the JavaScript parser. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "Get a random item from an array. \n var items = [12, 548 , 'a' , 2 , 5478 , 'foo' , 8852, , 'Doe' , 2145 , 119]; \n var  randomItem = items[Math.floor(Math.random() * items.length)]; #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": " Get a random number in a specific range. \n var x = Math.floor(Math.random() * (max - min + 1)) + min; #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "Use splice instead of using delete to delete an item from an array. Using delete replaces the item with undefined instead of the removing it from the array.  #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "Use of eval or the Function constructor are expensive operations as each time they are called the script engine must convert source code to executable code. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "Use a switch case when you can. Using switch/case is faster when there are more than 2 cases, and it is more elegant (better organized code). Avoid using it when you have more than 10 cases. #Javascript #100DaysOfCode #CodeNewbies"
+},
+{
+  "tweet": "Don’t forget to use a code beautifier when coding. Use JSLint and minification (JSMin, for example) before going live.  #Javascript #100DaysOfCode #CodeNewbies"
+}
+]

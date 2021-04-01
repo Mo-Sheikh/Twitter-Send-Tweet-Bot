@@ -17,7 +17,15 @@ Resources:
         Schedule1:
           Type: Schedule
           Properties:
-            Schedule: cron(0 0/3 ? * * *)
+            Schedule: cron(0 0/5 ? * * *)
+        Schedule2:
+          Type: Schedule
+          Properties:
+            Schedule: cron(30 0/4 ? * * *)
+        Schedule3:
+          Type: Schedule
+          Properties:
+            Schedule: cron(45 0/7 ? * * *)
       Environment:
         Variables:
           ConsumerKey: !Ref ConsumerKey
