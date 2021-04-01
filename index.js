@@ -1,16 +1,14 @@
 const OAuth = require("oauth");
 const reuse = require("./cleanedUp.json");
 const tips = require("./softwareTweets.json");
-const questions = require("./Questions.json")
+const questions = require("./Questions.json");
 const AWS = require("aws-sdk");
 const fs = require("fs");
 
 exports.handler = async (event) => {
-  console.log("event is ", event);
   var item;
   var index;
   var type;
-  var quoteNo;
   var dynamodb;
   async function initialise() {
     console.log("INITIALISING");
@@ -40,7 +38,6 @@ exports.handler = async (event) => {
     }
   }
   async function getTweetType() {
-
     if (!event.type) {
       index = 2;
       type = tips;
@@ -49,12 +46,13 @@ exports.handler = async (event) => {
       index = 1;
       type = reuse;
       item = "reuseNo";
-    }else if (event.type == "question"){
+    } else if (event.type == "question") {
       index = 0;
-      type = questions
+      type = questions;
       item = "questionsNo";
     }
   }
+
   async function getQuoteNo(index) {
     var params = {
       TableName: process.env.TableName,
@@ -67,7 +65,7 @@ exports.handler = async (event) => {
           return;
         } else {
           quoteNo = data.Items[index].value.N;
-          console.log(data.Items)
+          console.log(data.Items);
           console.log("RETRIEVED QUOTE NO:", quoteNo);
           resolve(quoteNo);
         }
@@ -79,10 +77,13 @@ exports.handler = async (event) => {
   async function sendTweet(type) {
     console.log("QUOTe NO is ", quoteNo);
     console.log("SENDING TWEET");
-    let tweetPost = index == 2 ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}` : type[quoteNo].tweet
-    if(tweetPost.includes("undefined")){
-      console.log(" we have an undefined")
-      return
+    let tweetPost =
+      index == 2
+        ? `Tip ${quoteNo.toString()} - ${type[quoteNo].tweet}`
+        : type[quoteNo].tweet;
+    if (tweetPost.includes("undefined")) {
+      console.log(" we have an undefined");
+      return;
     }
     const oauth = new OAuth.OAuth(
       "https://api.twitter.com/oauth/request_token",
@@ -150,5 +151,3 @@ exports.handler = async (event) => {
   };
   return response;
 };
-
-
