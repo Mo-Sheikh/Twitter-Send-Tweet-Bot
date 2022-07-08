@@ -11,7 +11,7 @@
   "dependencies": {
     "aws-sdk": "^2.693.0",
     "fs": "0.0.1-security",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "oauth": "^0.9.15"
   }
 }
